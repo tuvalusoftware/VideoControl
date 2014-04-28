@@ -21,6 +21,7 @@
 		12A5B6B418B0515700FAEEB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A5B69618B0515700FAEEB0 /* UIKit.framework */; };
 		12A5B6BC18B0515700FAEEB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12A5B6BA18B0515700FAEEB0 /* InfoPlist.strings */; };
 		12A5B6BE18B0515700FAEEB0 /* VideoControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A5B6BD18B0515700FAEEB0 /* VideoControlTests.m */; };
+		12A5B6C918B051D200FAEEB0 /* VideoControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A5B6C818B051D200FAEEB0 /* VideoControls.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		12A5B6B918B0515700FAEEB0 /* VideoControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoControlTests-Info.plist"; sourceTree = "<group>"; };
 		12A5B6BB18B0515700FAEEB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12A5B6BD18B0515700FAEEB0 /* VideoControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoControlTests.m; sourceTree = "<group>"; };
+		12A5B6C718B051D200FAEEB0 /* VideoControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoControls.h; sourceTree = "<group>"; };
+		12A5B6C818B051D200FAEEB0 /* VideoControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoControls.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				12A5B6A418B0515700FAEEB0 /* Main.storyboard */,
 				12A5B6A718B0515700FAEEB0 /* ViewController.h */,
 				12A5B6A818B0515700FAEEB0 /* ViewController.m */,
+				12A5B6C718B051D200FAEEB0 /* VideoControls.h */,
+				12A5B6C818B051D200FAEEB0 /* VideoControls.m */,
 				12A5B6AA18B0515700FAEEB0 /* Images.xcassets */,
 				12A5B69918B0515700FAEEB0 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				12A5B6A918B0515700FAEEB0 /* ViewController.m in Sources */,
 				12A5B6A318B0515700FAEEB0 /* AppDelegate.m in Sources */,
 				12A5B69F18B0515700FAEEB0 /* main.m in Sources */,
+				12A5B6C918B051D200FAEEB0 /* VideoControls.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
